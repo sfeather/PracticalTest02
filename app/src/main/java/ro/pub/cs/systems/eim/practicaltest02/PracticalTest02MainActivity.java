@@ -2,22 +2,16 @@ package ro.pub.cs.systems.eim.practicaltest02;
 
 import android.os.Bundle;
 
-import com.google.android.material.snackbar.Snackbar;
-
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.util.Log;
-import android.view.View;
-
-import androidx.navigation.NavController;
-import androidx.navigation.Navigation;
-import androidx.navigation.ui.AppBarConfiguration;
-import androidx.navigation.ui.NavigationUI;
-
-import android.view.Menu;
-import android.view.MenuItem;
+import android.widget.Button;
+import android.widget.EditText;
 
 public class PracticalTest02MainActivity extends AppCompatActivity {
+
+    private EditText serverPortEditText;
+    private Button connectButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
